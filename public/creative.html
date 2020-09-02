@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Creativity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/creative.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN1GV9Jm2u7rmsCe65wKzPTw5jtS38n2tVEGiQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://kit.fontawesome.com/06855a8369.js"></script>
+
+    <script type="text/javascript"> 
+      function changeimg(image)
+      {
+        var modal = document.getElementById("myModal");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = image.src
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  
+    modal.style.display = "block";
+    modalImg.src = img;
+  
+    var span = document.getElementById("close");
+  
+    span.onclick = function() { 
+    modal.style.display = "none";
+  }
+    
+      }
+  
+  // Get the <span> element that closes the modal
+  
+  
+  // When the user clicks on <span> (x), close the modal
+  
+      
+  
+      </script>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" style=" font-family: 'Roboto Slab', serif; letter-spacing: 2px;">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../data/pictures/logo.jpg" width="200" height="40" class="d-inline-block align-top" alt="image is not load">
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../history.html">History</a>
+                            <a class="dropdown-item" href="../who.html">Who We Are</a>
+                            <a class="dropdown-item" href="../team.html">Our Team</a>
+                            <a class="dropdown-item" href="../gallery.html">Our Gallery</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../vision.html">Vision And mission</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../cbse.html">CBSE/ICSE COACHING</a>
+                        <a class="dropdown-item" href="../competitive.html">Competitive Exam Coaching</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../school.html">School Workshops</a>
+                        <a class="dropdown-item" href="../development.html">Developmental Activities</a>
+                      </div>
+                    </li>
+         
+                    
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Learning Zone
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="../blog.html">Our Blog</a>
+                            
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../fun.html">Fun Facts</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+                    </li>
+                    <li class="nav-item" style="right: 50px; position: absolute;">
+                      <a href="https://warofthewits.com/account/login" target="__blank"><button class="btn btn-outline-primary"> Login</button></a>
+                      
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        <div class=" heading text-center">
+            <h1 style="letter-spacing: 2px; font-size:2em;">We Are Creative</h1>
+        </div>      
+        <div class="images">
+            <img onclick="changeimg(this)" src="./data/pictures/creative2.jpg" alt="">
+            <img onclick="changeimg(this)" src="./data/pictures/creative3.jpg" alt="">
+            <img onclick="changeimg(this)" src="./data/pictures/creative4.jpg" alt="">
+            <img onclick="changeimg(this)" src="./data/pictures/creative5.jpg" alt="">
+            <img onclick="changeimg(this)" src="./data/pictures/creative6.jpg" alt="">
+            <img onclick="changeimg(this)" src="./data/pictures/creative7.jpg" alt="">
+            
+        </div>
+                  
+        <!-- <div class="pre">
+            <a onclick="this.parentElement.style.display='none'" class="ion-close"></a>
+            <img id="p" src="./data/pictures/creative2.jpg" alt="">
+        </div> -->
+
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span id="close" class="close">&times;</span>
+          
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+          
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+
+          
+        <div class="footer-wrapper" id = "contact">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="footer-logo-content">
+                    
+                        <h1 class="glow text-center">InTuition</h>
+                      </div>
+                      <div class="footer-line"></div>
+                      <div class="footer-line"></div>
+                    </div>
+                          
+                          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="footer-menu-box">
+                              <h3>Main Menu</h3>
+                              <div class="footer-menu-list">
+                                <ul>
+                                  <li><a href="./index.html">Home</a></li>
+                                  <li><a href="./who.html">About Us</a></li>
+                                  <li><a href="./team.html">Team</a></li>
+                                  <li><a href="./cbse.html">Services</a></li>
+                                  <li><a href="./vision.html">Vision</a></li>
+                                  <li><a href="./blog.html">Blog</a></li>
+                                  <li><a href="./contact.html">Contact Us</a></li>
+                                  
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          
+                           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="footer-menu-box">
+                              <h3>Our Courses</h3>
+                              <div class="footer-menu-list">
+                                <ul>
+                                  <li><a href="./cbse.html">Cbse/Icse Coaching</a></li>
+                                  <li><a href="./competitive.html">Competitive Exam</a></li>
+                                  <li><a href="./school.html">School Workshop</a></li>
+                                  <li><a href="./development.html">Development Activities</a></li>
+                                  
+                                  
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="footer-menu-box">
+                              <h3>Contact & Follow Us</h3>
+                              <div class="footer-social-icons">
+                                <ul>
+                                  <li><a href="https://www.facebook.com/intuitionacademe/" target="_blank"><i class="fab fa-facebook-square"></i></i></a></li>
+                                  
+                                  <li><a href="https://instagram.com/intuitionacademe" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                  <li><a href="https://www.youtube.com/channel/UCrShwWR3loRLzVlpIR2SVqg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                              </div>
+                              <div class="footer-menu-list">
+                                <ul>
+                                  <li><a href="tel:+919582338381"><i class="fa fa-phone"></i>+91-95823-38381</a></li>
+                                  <li><a href="mailto:info@demo.com"><i class="fa fa-envelope"></i>intuition.learn@gmail.com</a></li>
+                                  
+                                  
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+              
+                  </div>
+                </div>
+              </div>
+              
+              <div class="footer-bottom">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 colxs-12">
+                      <p><a href="rstechsoftwares.com">Designed by: RSTech Softwares</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+                  
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+        </script>
+</body>
+</html>
